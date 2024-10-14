@@ -1,0 +1,1173 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Learn HTML Basics</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <header id="top-header">
+            <div class="main-heading">
+                <h1>
+                    <span class="heading-start">Learn </span>HTML<span class="heading-end">
+                            Basics</span
+                        >
+                    </h1>
+                </div>
+                <div class="heading-text">
+                    <p>
+                        This module contains articles, which will take you
+                        through all the basic theory of HTML.
+                    </p>
+                </div>
+            </header>
+
+            <div class="padding-container">
+                <div class="sub-container">
+                    <aside>
+                        <nav id="navbar">
+                            <header>
+                                HTML Documentation
+                            </header>
+                            <ul>
+                                <li>
+                                    <a
+                                        class="nav-link nav-heading"
+                                        href="#Getting_started_with_HTML"
+                                        >Getting started with HTML</a
+                                    >
+                                    <ul>
+                                        <li>
+                                            <a
+                                                class="nav-link-sub"
+                                                href="#What_is_HTML?"
+                                                >What is HTML?</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="nav-link-sub"
+                                                href="#Anatomy_of_an_HTML_element"
+                                                >Anatomy of an HTML element</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a
+                                        class="nav-link nav-heading"
+                                        href="#What’s_in_the_head?"
+                                        >What’s in the head?</a
+                                    >
+                                    <ul>
+                                        <li>
+                                            <a
+                                                class="nav-link-sub"
+                                                href="#What_is_the_HTML_head?"
+                                                >What is the HTML head?</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="nav-link-sub"
+                                                href="#Adding_a_title"
+                                                >Adding a title</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a
+                                        class="nav-link nav-heading"
+                                        href="#HTML_text_fundamentals"
+                                        >HTML text fundamentals</a
+                                    >
+                                    <ul>
+                                        <li>
+                                            <a
+                                                class="nav-link-sub"
+                                                href="#Headings_and_Paragraphs"
+                                                >Headings and Paragraphs</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="nav-link-sub"
+                                                href="#Lists"
+                                                >Lists</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a
+                                        class="nav-link nav-heading"
+                                        href="#Creating_hyperlinks"
+                                        >Creating hyperlinks</a
+                                    >
+                                    <ul>
+                                        <li>
+                                            <a
+                                                class="nav-link-sub"
+                                                href="#What_is_a_hyperlink?"
+                                                >What is a hyperlink?</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="nav-link-sub"
+                                                href="#Anatomy_of_a_link"
+                                                >Anatomy of a link</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a
+                                        class="nav-link nav-heading"
+                                        href="#Advanced_text_formatting"
+                                        >Advanced text formatting</a
+                                    >
+                                    <ul>
+                                        <li>
+                                            <a
+                                                class="nav-link-sub"
+                                                href="#Description_lists"
+                                                >Description lists</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="nav-link-sub"
+                                                href="#Quotations"
+                                                >Quotations</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a
+                                        class="nav-link nav-heading"
+                                        href="#Reference"
+                                        >Reference</a
+                                    >
+                                </li>
+                            </ul>
+                        </nav>
+                    </aside>
+
+                    <main id="main-doc">
+                        <section
+                            class="main-section"
+                            id="Getting_started_with_HTML"
+                        >
+                            <header>
+                                <h2>Getting started with HTML</h2>
+                            </header>
+                            <p>
+                                In this article we cover the absolute basics of
+                                HTML, to get you started. We define elements,
+                                attributes, and all the other important terms
+                                you may have heard, and where they fit into the
+                                language. We also show how an HTML element is
+                                structured, how a typical HTML page is
+                                structured, and explain other important basic
+                                language features. Along the way, we'll play
+                                with some HTML to get you interested!
+                            </p>
+                            <article>
+                                <div id="What_is_HTML?">
+                                    <h3>What is HTML?</h3>
+                                    <p>
+                                        HTML (Hypertext Markup Language) is not
+                                        a programming language; it is a markup
+                                        language used to tell your browser how
+                                        to structure the web pages you visit. It
+                                        can be as complicated or as simple as
+                                        the web developer wishes it to be. HTML
+                                        consists of a series of elements, which
+                                        you use to enclose, wrap, or mark up
+                                        different parts of the content to make
+                                        it appear or act a certain way. The
+                                        enclosing tags can make a bit of content
+                                        into a hyperlink to link to another page
+                                        on the web, italicize words, and so on.
+                                        For example, take the following line of
+                                        content:
+                                    </p>
+                                    <pre>
+                                    <code>My cat is very grumpy</code>
+                                </pre>
+                                    <p>
+                                        If we wanted the line to stand by
+                                        itself, we could specify that it is a
+                                        paragraph by enclosing it in a paragraph
+                                        <code class="inline-code"
+                                            >(&lt;p&gt;)</code
+                                        >
+                                        element:
+                                    </p>
+                                    <pre>
+                                    <code>&lt;p&gt;My cat is very grumpy&lt;p&gt;</code>
+                                </pre>
+                                </div>
+                                <div id="Anatomy_of_an_HTML_element">
+                                    <h3>Anatomy of an HTML element</h3>
+                                    <p>The main parts of our element are:</p>
+                                    <ol>
+                                        <li>
+                                            <strong>The opening tag:</strong>
+                                            This consists of the name of the
+                                            element (in this case, p), wrapped
+                                            in opening and closing
+                                            <strong>angle brackets</strong>.
+                                            This states where the element begins
+                                            or starts to take effect — in this
+                                            case where the start of the
+                                            paragraph is.
+                                        </li>
+                                        <li>
+                                            <strong>The closing tag:</strong>
+                                            This is the same as the opening tag,
+                                            except that it includes a forward
+                                            slash before the element name. This
+                                            states where the element ends — in
+                                            this case where the end of the
+                                            paragraph is. Failing to include a
+                                            closing tag is a common beginner
+                                            error and can lead to strange
+                                            results.
+                                        </li>
+                                        <li>
+                                            <strong>The content:</strong> This
+                                            is the content of the element, which
+                                            in this case is just text.
+                                        </li>
+                                        <li>
+                                            <strong>The element:</strong> The
+                                            opening tag plus the closing tag
+                                            plus the content equals the element.
+                                        </li>
+                                    </ol>
+                                </div>
+                            </article>
+                        </section>
+
+                        <section class="main-section" id="What’s_in_the_head?">
+                            <header>
+                                <h2>What’s in the head?</h2>
+                            </header>
+                            <p>
+                                The head of an HTML document is the part that is
+                                not displayed in the web browser when the page
+                                is loaded. It contains information such as the
+                                page
+                                <code class="inline-code">&lt;title&gt;</code>,
+                                links to CSS (if you choose to style your HTML
+                                content with CSS), links to custom favicons, and
+                                other metadata (data about the HTML, such as the
+                                author, and important keywords that describe the
+                                document.) In this article we'll cover all of
+                                the above and more, in order to give you a good
+                                basis for working with markup.
+                            </p>
+                            <article>
+                                <div id="What_is_the_HTML_head?">
+                                    <h3>What is the HTML head?</h3>
+                                    <pre>
+                                    <code>&lt;!DOCTYPE html&gt;</code>
+                                    <code>&lt;html&gt;</code>
+                                    <code>&nbsp;&nbsp;&lt;head&gt;</code>
+                                    <code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="utf-8"/&gt;</code>          
+                                    <code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My test page&lt;/title&gt;</code>
+                                    <code>&nbsp;&nbsp;&lt;/head&gt;</code>
+                                    <code>&nbsp;&nbsp;&lt;body&gt;</code>
+                                    <code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is my page&lt;/p&gt;</code>     
+                                    <code>&nbsp;&nbsp;&lt;/body&gt;</code>                          
+                                    <code>&lt;/html&gt;</code>
+                                </pre>
+                                    <p>
+                                        The HTML head is the contents of the
+                                        <code class="inline-code"
+                                            >&lt;head&gt;</code
+                                        >
+                                        element — unlike the contents of the
+                                        <code class="inline-code"
+                                            >&lt;body&gt;</code
+                                        >
+                                        element (which are displayed on the page
+                                        when loaded in a browser), the head's
+                                        content is not displayed on the page.
+                                        Instead, the head's job is to contain
+                                        metadata about the document. In the
+                                        above example, the head is quite small:
+                                    </p>
+                                </div>
+                                <div id="Adding_a_title">
+                                    <h3>Adding a title</h3>
+                                    <p>
+                                        We've already seen the
+                                        <code class="inline-code"
+                                            >&lt;title&gt;</code
+                                        >
+                                        element in action — this can be used to
+                                        add a title to the document. This
+                                        however can get confused with the
+                                        <code class="inline-code"
+                                            >&lt;h1&gt;</code
+                                        >
+                                        element, which is used to add a top
+                                        level heading to your body content —
+                                        this is also sometimes referred to as
+                                        the page title. But they are different
+                                        things!
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            The
+                                            <code class="inline-code"
+                                                >&lt;h1&gt;</code
+                                            >
+                                            element appears on the page when
+                                            loaded in the browser — generally
+                                            this should be used once per page,
+                                            to mark up the title of your page
+                                            content (the story title, or news
+                                            headline, or whatever is appropriate
+                                            to your usage.)
+                                        </li>
+                                        <li>
+                                            The
+                                            <code class="inline-code"
+                                                >&lt;title&gt;</code
+                                            >
+                                            element is metadata that represents
+                                            the title of the overall HTML
+                                            document (not the document's
+                                            content.)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </section>
+
+                        <section
+                            class="main-section"
+                            id="HTML_text_fundamentals"
+                        >
+                            <header>
+                                <h2>HTML text fundamentals</h2>
+                            </header>
+                            <p>
+                                One of HTML's main jobs is to give text
+                                structure and meaning (also known as semantics)
+                                so that a browser can display it correctly. This
+                                article explains the way HTML can be used to
+                                structure a page of text by adding headings and
+                                paragraphs, emphasizing words, creating lists,
+                                and more.
+                            </p>
+                            <article>
+                                <div id="Headings_and_Paragraphs">
+                                    <h3>Headings and Paragraphs</h3>
+                                    <p>
+                                        Most structured text consists of
+                                        headings and paragraphs, whether you are
+                                        reading a story, a newspaper, a college
+                                        textbook, a magazine, etc. Structured
+                                        content makes the reading experience
+                                        easier and more enjoyable.
+                                    </p>
+                                    <p>
+                                        In HTML, each paragraph has to be
+                                        wrapped in a
+                                        <code class="inline-code"
+                                            >&lt;p&gt;</code
+                                        >
+                                        element, like so:
+                                    </p>
+                                    <pre>
+                                    <code>&lt;p&gt;I am a paragraph, oh yes I am.&lt;/p&gt;</code>
+                                </pre>
+                                    <p>
+                                        Each heading has to be wrapped in a
+                                        heading element:
+                                    </p>
+                                    <pre>
+                                    <code>&lt;h1&gt;I am the title of the story.&lt;/h1&gt;</code>
+                                </pre>
+                                    <p>
+                                        There are six heading elements —
+                                        <code class="inline-code"
+                                            >&lt;h1&gt;</code
+                                        >,
+                                        <code class="inline-code"
+                                            >&lt;h2&gt;</code
+                                        >,
+                                        <code class="inline-code"
+                                            >&lt;h3&gt;</code
+                                        >,
+                                        <code class="inline-code"
+                                            >&lt;h4&gt;</code
+                                        >,
+                                        <code class="inline-code"
+                                            >&lt;h5&gt;</code
+                                        >, and
+                                        <code class="inline-code"
+                                            >&lt;h6&gt;</code
+                                        >. Each element represents a different
+                                        level of content in the document;
+                                        <code class="inline-code"
+                                            >&lt;h1&gt;</code
+                                        >
+                                        represents the main heading,
+                                        <code class="inline-code"
+                                            >&lt;h2&gt;</code
+                                        >
+                                        represents subheadings,
+                                        <code class="inline-code"
+                                            >&lt;h3&gt;</code
+                                        >
+                                        represents sub-subheadings, and so on.
+                                    </p>
+                                </div>
+                                <div id="Lists">
+                                    <h3>Lists</h3>
+                                    <p>
+                                        Now let's turn our attention to lists.
+                                        Lists are everywhere in life — from your
+                                        shopping list to the list of directions
+                                        you subconsciously follow to get to your
+                                        house every day, to the lists of
+                                        instructions you are following in these
+                                        tutorials! Lists are everywhere on the
+                                        Web too, and we've got three different
+                                        types to worry about.
+                                    </p>
+                                    <p>
+                                        Unordered lists are used to mark up
+                                        lists of items for which the order of
+                                        the items doesn't matter.
+                                    </p>
+                                    <p>
+                                        Ordered lists are lists in which the
+                                        order of the items does matter.
+                                    </p>
+                                    <p>
+                                        It is perfectly ok to nest one list
+                                        inside another one. You might want to
+                                        have some sub-bullets sitting below a
+                                        top level bullet.
+                                    </p>
+                                </div>
+                            </article>
+                        </section>
+
+                        <section class="main-section" id="Creating_hyperlinks">
+                            <header>
+                                <h2>Creating hyperlinks</h2>
+                            </header>
+                            <p>
+                                Hyperlinks are really important — they are what
+                                makes the Web a web. This article shows the
+                                syntax required to make a link, and discusses
+                                link best practices.
+                            </p>
+                            <article>
+                                <div id="What_is_a_hyperlink?">
+                                    <h3>What is a hyperlink</h3>
+                                    <p>
+                                        Hyperlinks are one of the most exciting
+                                        innovations the Web has to offer. Well,
+                                        they've been a feature of the Web since
+                                        the very beginning, but they are what
+                                        makes the Web a Web — they allow us to
+                                        link our documents to any other document
+                                        (or other resource) we want to, we can
+                                        also link to specific parts of
+                                        documents, and we can make apps
+                                        available at a simple web address
+                                        (contrast this to native apps, which
+                                        have to be installed and all that
+                                        business.) Just about any web content
+                                        can be converted to a link, so that when
+                                        clicked (or otherwise activated) it will
+                                        make the web browser go to another web
+                                        address (URL).
+                                    </p>
+                                </div>
+                                <div id="Anatomy_of_a_link">
+                                    <h3>Anatomy of a link</h3>
+                                    <p>
+                                        A basic link is created by wrapping the
+                                        text (or other content, see
+                                        <a
+                                            href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#Block_level_links"
+                                            target="_blank"
+                                            >Block level links</a
+                                        >) you want to turn into a link inside
+                                        an
+                                        <code class="inline-code"
+                                            >&lt;a&gt;</code
+                                        >
+                                        element, and giving it an
+                                        <code class="inline-code"
+                                            >&lt;href&gt;</code
+                                        >
+                                        attribute (also known as a
+                                        <strong>Hypertext Reference</strong> ,
+                                        or <strong>target</strong>) that will
+                                        contain the web address you want the
+                                        link to point to.
+                                    </p>
+                                    <pre>
+                                    <code>&lt;p&gt;I'm creating a link to</code>
+                                    <code>&lt;a href="https://www.mozilla.org/en-US/"&gt;the Mozilla homepage&lt;/a&gt;.</code>
+                                    <code>&lt;/p&gt;</code>
+                                </pre>
+                                    <p>This gives us the following result:</p>
+                                    <p>
+                                        I'm creating a link to
+                                        <a href="https://www.mozilla.org/en-US/"
+                                            >the Mozilla homepage</a
+                                        >.
+                                    </p>
+                                </div>
+                            </article>
+                        </section>
+
+                        <section
+                            class="main-section"
+                            id="Advanced_text_formatting"
+                        >
+                            <header>
+                                <h2>Advanced text formatting</h2>
+                            </header>
+                            <p>
+                                There are many other elements in a HTML for
+                                formatting text, which we didn't get to in the
+                                <a
+                                    class="nav-link-doc"
+                                    href="#HTML_text_fundamentals"
+                                    >HTML text fundamentals</a
+                                >
+                                article. The elements described in this article
+                                are less known, but still useful to know about
+                                (and this is still not a complete list by any
+                                means). Here you'll learn about marking up
+                                quotations, description lists, computer code and
+                                other related text, subscript and superscript,
+                                contact information, and more.
+                            </p>
+                            <article>
+                                <div id="Description_lists">
+                                    <h3>Description lists</h3>
+                                    <p>
+                                        In HTML text fundamentals, we walked
+                                        through how to mark up basic lists in
+                                        HTML, but we didn't mention the third
+                                        type of list you'll occasionally come
+                                        across —
+                                        <strong>description lists</strong>. The
+                                        purpose of these lists is to mark up a
+                                        set of items and their associated
+                                        descriptions, such as terms and
+                                        definitions, or questions and answers.
+                                        Let's look at an example of a set of
+                                        terms and definitions:
+                                    </p>
+                                    <pre>
+                                    <code>soliloquy</code>
+                                    <code>In drama, where a character speaks to themselves, representing their inner thoughts or feelings and in the process relaying them to the audience (but not to other characters.)</code>
+                                    <code>monologue</code>
+                                    <code>In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present.</code>
+                                    <code>aside</code>
+                                    <code>In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought or piece of additional background information</code>
+                                </pre>
+                                    <p>
+                                        Description lists use a different
+                                        wrapper than the other list types —
+                                        <code class="inline-code"
+                                            >&lt;dl&gt;</code
+                                        >; in addition each term is wrapped in a
+                                        <code class="inline-code"
+                                            >&lt;dt&gt;</code
+                                        >
+                                        (description term) element, and each
+                                        description is wrapped in a
+                                        <code class="inline-code"
+                                            >&lt;dd&gt;</code
+                                        >
+                                        (description definition) element. Let's
+                                        finish marking up our example:
+                                    </p>
+                                    <pre>
+                                    <code>&lt;dl&gt;</code>
+                                    <code>&nbsp;&nbsp;&lt;dt&gt;soliloquy&lt;dt&gt;</code>
+                                    <code>&nbsp;&nbsp;&lt;dd&gt;In drama, where a character speaks to themselves, representing their inner thoughts or feelings and in the process relaying them to the audience (but not to other characters.)&lt;dt&gt;</code>
+                                    <code>&nbsp;&nbsp;&lt;dt&gt;monologue&lt;dt&gt;</code>
+                                    <code>&nbsp;&nbsp;&lt;dd&gt;In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present.&lt;dt&gt;</code>
+                                    <code>&nbsp;&nbsp;&lt;dt&gt;aside&lt;dt&gt;</code>
+                                    <code>&nbsp;&nbsp;&lt;dd&gt;In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought, or piece of additional background information.&lt;dt&gt;</code>
+                                    <code>&lt;/dl&gt;</code>
+                                </pre>
+                                </div>
+                                <div id="Quotations">
+                                    <h3>Quotations</h3>
+                                    <p>
+                                        HTML also has features available for
+                                        marking up quotations; which element you
+                                        use depends on whether you are marking
+                                        up a block or inline quotation.
+                                    </p>
+                                    <p>
+                                        If a section of block level content (be
+                                        it a paragraph, multiple paragraphs, a
+                                        list, etc.) is quoted from somewhere
+                                        else, you should wrap it inside a
+                                        <code class="inline-code"
+                                            >&lt;blockquote&gt;</code
+                                        >
+                                        element to signify this, and include a
+                                        URL pointing to the source of the quote
+                                        inside a cite attribute.
+                                    </p>
+                                </div>
+                            </article>
+                        </section>
+
+                        <section class="main-section" id="Reference">
+                            <header>
+                                <h2>Reference</h2>
+                            </header>
+                            <p>
+                                All the documentation in this page is taken from
+                                <a
+                                    href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"
+                                    target="_blanck"
+                                    >MDN</a
+                                >
+                            </p>
+                        </section>
+                    </main>
+                </div>
+
+                <footer>
+                    <p>
+                        <small
+                            >&copy; 2019 Fictional Institute all rights
+                            reserved</small
+                        >
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </body>
+    <style>:root {
+        --background: #eee;
+        --section-bg: #fff;
+        --section-alt-bg: rgb(250, 250, 250);
+        --nav-bg: rgb(50, 55, 63);
+        --nav-bg-light: rgb(72, 75, 87);
+        --header-bg: rgb(107, 117, 126);
+        --focus-bg: rgb(228, 237, 255);
+        --focus: rgb(36, 118, 226);
+        --text-light-strong: #fff;
+        --text-light-normal: rgb(185, 191, 196);
+        --text-light-weak: rgb(129, 138, 146);
+        --text-dark-strong: #222;
+        --text-dark-normal: rgb(90, 90, 90);
+        --text-dark-weak: rgb(177, 185, 202);
+    }
+    
+    /* Basic Reset */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Basic setup */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        font-weight: 100;
+        line-height: 1.75em;
+    
+        color: var(--text-dark-normal);
+        background-color: var(--background);
+    }
+    
+    h1 {
+        font-size: 3rem;
+        font-weight: 100;
+        line-height: 1em;
+    
+        width: 2.8em;
+    
+        color: var(--text-light-strong);
+    }
+    
+    h2 {
+        font-weight: 100;
+    
+        color: var(--text-dark-strong);
+    }
+    
+    h3 {
+        font-weight: 100;
+    
+        color: var(--text-dark-strong);
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:visited,
+    a:link {
+        color: var(--text-light-normal);
+    }
+    
+    /* Utility classes */
+    .main-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-rows: 8rem calc(100% - 8rem);
+        grid-template-rows: 8rem calc(100% - 8rem);
+    
+        height: 100vh;
+    }
+    
+    .padding-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-rows: calc(100% - 5rem) 5rem;
+        grid-template-rows: calc(100% - 5rem) 5rem;
+    
+        padding: 0 12rem 1rem 12rem;
+    }
+    
+    .sub-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-rows: 100%;
+        -ms-grid-columns: 22rem 1fr;
+        grid-template-columns: 22rem 1fr;
+        grid-template-rows: 100%;
+    
+        height: auto;
+    }
+    
+    .flex-row {
+        display: flex;
+    }
+    
+    .flex-col {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Code */
+    pre {
+        overflow-x: auto;
+    
+        width: 100%;
+        margin-top: 1rem;
+        padding: 1rem 2rem;
+    
+        counter-reset: linenumber;
+        white-space: nowrap;
+    
+        border: 1px solid;
+        border-color: var(--text-light-normal);
+        border-radius: 4px;
+        background-color: var(--section-alt-bg);
+    }
+    
+    pre code::before {
+        display: inline-block;
+    
+        width: 1rem;
+        margin-right: 1em;
+        padding-right: 1em;
+    
+        content: counter(linenumber) " ";
+        counter-increment: linenumber;
+        -webkit-user-select: none;
+        text-align: right;
+    
+        color: var(--text-dark-normal);
+        border-right: 1px solid;
+        border-right-color: var(--text-dark-weak);
+    }
+    
+    code {
+        font-family: monospace;
+        font-weight: 500;
+    
+        display: block;
+    
+        color: var(--text-dark-strong);
+    }
+    
+    .inline-code {
+        display: inline;
+    
+        padding: 0.2em 0.3em;
+    
+        border: 1px solid;
+        border-color: var(--text-dark-weak);
+        background-color: var(--focus-bg);
+    }
+    
+    /* Header */
+    #top-header {
+        display: -ms-grid;
+        display: grid;
+        align-items: center;
+        -ms-grid-columns: 22rem 1fr;
+        grid-template-columns: 22rem 1fr;
+    
+        height: 100%;
+        padding: 1.5rem 12rem;
+    
+        color: var(--text-light-normal);
+        background-color: var(--header-bg);
+    }
+    
+    .heading-start,
+    .heading-end {
+        font-size: 0.3em;
+        line-height: 0.7em;
+    
+        display: block;
+    }
+    
+    .heading-start {
+        transform: translateX(0.2em);
+    }
+    .heading-end {
+        transform: translateX(-0.2em);
+        text-align: right;
+    }
+    
+    #top-header .heading-text {
+        padding: 0 7rem 0 5rem;
+    }
+    
+    /* Navbar */
+    aside {
+        overflow: hidden;
+    }
+    
+    #navbar {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    
+        height: 100%;
+        padding: 3rem 0;
+    
+        background-color: var(--nav-bg);
+    }
+    
+    #navbar header {
+        font-size: 1.1rem;
+    
+        padding: 0rem 3rem;
+    
+        text-transform: uppercase;
+    
+        color: var(--text-light-strong);
+    }
+    
+    #navbar .nav-heading {
+        color: var(--text-light-strong);
+    }
+    
+    #navbar .nav-link-sub {
+        color: var(--text-light-weak);
+    }
+    
+    #navbar a {
+        display: block;
+    
+        width: 100%;
+        padding: 0rem 3rem;
+    }
+    
+    #navbar a:hover {
+        color: var(--text-light-strong);
+        background-color: var(--focus);
+    }
+    
+    #navbar ul {
+        list-style: none;
+    }
+    
+    #navbar > ul > li {
+        margin-top: 2rem;
+    }
+    
+    /* Main Document */
+    #main-doc {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    
+        height: 100%;
+        padding: 0rem 7rem 3rem 5rem;
+    
+        background-color: var(--section-bg);
+    }
+    
+    #main-doc h2 {
+        font-size: 1.8rem;
+    
+        margin-top: 1rem;
+        padding-top: 3rem;
+    }
+    
+    #main-doc > .main-section:first-of-type h2 {
+        margin-top: 0;
+        padding-top: 4rem;
+    }
+    
+    #main-doc h3 {
+        font-size: 1.5rem;
+    
+        padding-top: 3rem;
+    }
+    
+    #main-doc p,
+    #main-doc li:first-of-type {
+        margin-top: 1rem;
+    }
+    
+    #main-doc li {
+        margin-top: 0.75rem;
+    }
+    
+    #main-doc ol,
+    #main-doc ul {
+        padding-left: 2.5rem;
+    
+        list-style-position: outside;
+    }
+    
+    #main-doc a {
+        text-decoration: underline;
+    
+        color: var(--focus);
+    }
+    
+    #main-doc .nav-link-doc {
+        text-decoration: none;
+    }
+    
+    /* Footer */
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        width: 100%;
+        margin-top: 0.75rem;
+    
+        text-align: center;
+    
+        background-color: var(--section-bg);
+    }
+    
+    /* Media queries desktop first */
+    
+    /* Desktop 1600px */
+    @media only screen and (max-width: 1600px) {
+        .padding-container {
+            padding: 0 8rem 1rem 8rem;
+        }
+        #top-header {
+            padding: 1.5rem 8rem;
+        }
+    }
+    
+    /* Desktop 1200px */
+    @media only screen and (max-width: 1200px) {
+        .padding-container {
+            padding: 0;
+        }
+        #top-header {
+            padding: 1.5rem 0;
+        }
+        #top-header .main-heading {
+            padding-left: 3rem;
+        }
+        #top-header .heading-text {
+            padding: 0 4rem 0 4rem;
+        }
+        #main-doc {
+            padding: 0rem 4rem 3rem 4rem;
+        }
+    }
+    
+    /* Tablet 835px */
+    @media only screen and (max-width: 835px) {
+        #top-header {
+            grid-template-columns: 1fr 3fr;
+    
+            padding: 1.5rem 0;
+        }
+        #top-header .heading-text {
+            font-size: 0.9rem;
+            line-height: 1.5em;
+    
+            padding: 0 4rem 0 4rem;
+        }
+        .main-container {
+            grid-template-rows: 6rem calc(100% - 6rem);
+        }
+        .padding-container {
+            grid-template-rows: calc(100% - 4rem) 4rem;
+        }
+        .sub-container {
+            grid-template-columns: 1fr;
+            grid-template-rows: 20% 80%;
+        }
+        body {
+            font-size: 1rem;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        #navbar {
+            padding: 2rem 0;
+        }
+        #navbar header {
+            font-size: 1rem;
+    
+            padding-bottom: 1rem;
+    
+            border-color: var(--nav-bg-light);
+            border-bottom: 1px solid;
+        }
+        #navbar > ul > li {
+            margin-top: 0rem;
+        }
+        #navbar > ul > li > ul > li {
+            margin-left: 1rem;
+        }
+        #navbar a {
+            border-color: var(--nav-bg-light);
+            border-bottom: 1px solid;
+        }
+        #main-doc {
+            padding: 0rem 3rem 3rem 3rem;
+        }
+        #main-doc h2 {
+            font-size: 1.5rem;
+    
+            margin-top: 1rem;
+            padding-top: 2rem;
+        }
+        #main-doc > .main-section:first-of-type h2 {
+            margin-top: 0;
+            padding-top: 3rem;
+        }
+        #main-doc h3 {
+            font-size: 1.25rem;
+    
+            padding-top: 2rem;
+        }
+        aside {
+            margin-bottom: 1rem;
+        }
+    }
+    
+    /* Phone 568px */
+    @media only screen and (max-width: 568px) {
+        #top-header {
+            grid-template-columns: 1fr;
+            grid-template-rows: 100%;
+    
+            padding: 1rem 0;
+        }
+        #top-header .heading-text {
+            display: none;
+        }
+        #top-header .main-heading {
+            padding-left: 1rem;
+        }
+        h1 {
+            font-size: 1.5rem;
+    
+            display: inline;
+        }
+        #top-header .heading-start,
+        #top-header .heading-end {
+            font-size: 1em;
+            line-height: 1em;
+    
+            display: inline;
+        }
+        .heading-start {
+            transform: translateX(0);
+        }
+        .heading-end {
+            transform: translateX(0);
+            text-align: left;
+        }
+        .main-container {
+            grid-template-rows: 3.5rem calc(100% - 3.5rem);
+        }
+        .padding-container {
+            grid-template-rows: calc(100% - 3rem) 3rem;
+        }
+        .sub-container {
+            grid-template-rows: 20% 80%;
+        }
+        #navbar {
+            padding: 1rem 0;
+        }
+    
+        #navbar header {
+            padding: 0rem 1rem 0rem 1rem;
+        }
+        #navbar a {
+            padding: 0rem 1rem;
+        }
+        #main-doc {
+            padding: 0rem 1rem 2rem 1rem;
+        }
+        #main-doc h2 {
+            font-size: 1.4rem;
+    
+            margin-top: 0.5rem;
+            padding-top: 1.5rem;
+        }
+        #main-doc > .main-section:first-of-type h2 {
+            margin-top: 0;
+            padding-top: 2rem;
+        }
+        #main-doc h3 {
+            font-size: 1.25rem;
+    
+            padding-top: 1.5rem;
+        }
+        aside {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            font-size: 0.8rem;
+            line-height: 1rem;
+    
+            margin-top: 0.5rem;
+        }
+    }
+    </style>
+</html>

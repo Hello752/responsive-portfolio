@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>freeCodeCamp Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id = "title">freeCodeCamp Survey Form</h1>
+    <div class="intro">
+      <p id = "description">Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <form id = "survey-form">
+      <label id = "name-label" for="name" type="text">Name:<input type="text" id="name" name="name" placeholder="Enter your name" required></label>
+      
+
+      <label id = "email-label" for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+
+      <label id = "number-label" for="age">Age (optional):</label>
+      <input type="number" id="number" name="age" placeholder="Age" min="18" max = "100">
+
+      <label id = "survey-form" for="currentRole">Which option best describes your current role?</label>
+      <select id="dropdown" name="currentRole">
+        <option vlaue = "">Select your current role</option>
+        <option value="student">Student</option>
+        <option value="juniorDev">Junior Developer</option>
+        <option value="seniorDev">Senior Developer</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="recommend">Would you recommend freeCodeCamp to a friend?</label>
+      <div>
+        <input type="radio" id="definitely" name="recommend" value="definitely">
+        <label for="definitely">Definitely</label>
+      </div>
+      <div>
+        <input type="radio" id="maybe" name="recommend" value="maybe">
+        <label for="maybe">Maybe</label>
+      </div>
+      <div>
+        <input type="radio" id="notSure" name="recommend" value="notSure">
+        <label for="notSure">Not sure</label>
+      </div>
+
+      <label for="favoriteFeature">What is your favorite feature of freeCodeCamp?</label>
+      <select id="favoriteFeature" name="favoriteFeature">
+        <option value="challenges">Challenges</option>
+        <option value="projects">Projects</option>
+        <option value="community">Community</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="improvements">What would you like to see improved? (Check all that apply)</label>
+      <div>
+        <input type="checkbox" id="frontEndProjects" name="improvements[]" value="frontEndProjects">
+        <label for="frontEndProjects">Front-end Projects</label>
+      </div>
+      <div>
+        <input type="checkbox" id="backEndProjects" name="improvements[]" value="backEndProjects">
+        <label for="backEndProjects">Back-end Projects</label>
+      </div>
+      <div>
+        <input type="checkbox" id="dataVisualization" name="improvements[]" value="dataVisualization">
+        <label for="dataVisualization">Data Visualization</label>
+      </div>
+      <div>
+        <input type="checkbox" id="challenges" name="improvements[]" value="challenges">
+        <label for="challenges">Challenges</label>
+      </div>
+      <div>
+        <input type="checkbox" id="openSourceCommunity" name="improvements[]" value="openSourceCommunity">
+        <label for="openSourceCommunity">Open Source Community</label>
+      </div>
+      <div>
+        <input type="checkbox" id="gitterHelpRooms" name="improvements[]" value="gitterHelpRooms">
+        <label for="gitterHelpRooms">Gitter help rooms</label>
+      </div>
+      <div>
+        <input type="checkbox" id="videos" name="improvements[]" value="videos">
+        <label for="videos">Videos</label>
+      </div>
+      <div>
+        <input type="checkbox" id="cityMeetups" name="improvements[]" value="cityMeetups">
+        <label for="cityMeetups">City Meetups</label>
+      </div>
+      <div>
+        <input type="checkbox" id="wiki" name="improvements[]" value="wiki">
+        <label for="wiki">Wiki</label>
+      </div>
+      <div>
+        <input type="checkbox" id="forum" name="improvements[]" value="forum">
+        <label for="forum">Forum</label></div>
+      <div>
+        <input type="checkbox" id="additionalCourses" name="improvements[]" value="additionalCourses">
+        <label for="additionalCourses">Additional Courses</label>
+      </div>
+
+      <label for="comments">Any comments or suggestions?</label>
+      <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+      <button id = "submit" type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+<style>
+  
+body {
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+  background-image:url(https://th.bing.com/th/id/OIP.fmmAx2o6NndScaWWcPGcYQHaE8?rs=1&pid=ImgDetMain);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background:linear-gradient(120deg,lightblue 20%,violet);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+</style>
+</html>

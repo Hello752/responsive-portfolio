@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div id="quadrilateral">
+            <a href="#" class="sub-home">Home</a>
+            <a href="#profile" class="expandHome">About</a>
+            <a href="#education" class="expandHome">Education</a>
+            <a href="#right" class="expandHome">Experience</a>
+            <a href="#skills" class="expandHome">Skills</a>
+            <a href="#projects" class="expandHome">Projects</a>
+            <a href="#contact-me" id="contact-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section id="profile" class="profile" style="width: 1300px;
+  height: 500px;
+  background:rgb(74, 123, 125);
+  color: black;
+  box-shadow: 0 0 100px black;
+  position:relative;
+  display: flex;
+  margin: 90px 0;
+  align-items: center;
+  left: 10%;
+  right: 10%;
+  border-radius: 30px;">
+        <div class="sec-left" style="width:55%; font-size: 3rem; padding: 20px; white-space: nowrap;">
+            <p style="font-size: 3rem;margin-left: 10px; color:black;">
+                &nbsp;Hi, my name is
+                <h1 style="font-size: 4rem; text-shadow: 10px 40px  20px black;color:rgb(221, 200, 174);">Prathik Prajapati</h1>
+                &nbsp;&nbsp; and I am a passionate <br> &nbsp;&nbsp;&nbsp;
+                <span id="element" style="color:#FFD700; text-shadow: 0 0 20px yellow;">Web Developer</span>
+            </p>
+            <div style="display: flex; justify-content: center; margin-top: 20px;">
+                <a href="Prathik_Prajapati_CV.pdf" download style="background-color:#FFD700; border-radius: 50px; color: black; border: none; padding: 10px 20px;cursor:pointer; text-decoration: none; font-size: 20px;">
+          Download CV
+        </a>
+            </div>
+        </div>
+        <div class="sec-right" style="display: flex; justify-content: space-around;  margin-left: 20px;">
+            <img style="width: 400px; height: 400px;" src="https://static-00.iconduck.com/assets.00/web-developer-illustration-2048x1490-saofs07x.png" alt="">
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="education" style="left: -200px;">
+        <div class="timeline-container" style="display: flex; justify-content: space-between;">
+            <div id="left">
+                <div class="timeline">
+                    <center>
+                        <h1 id="education" style="font-size: 60px;">Education</h1>
+                    </center>
+                    <hr>
+                    <ul>
+                        <li>
+                            <span>3rd January 2020</span>
+                            <div class="content ">
+                                <h3>What Is Lorem Ipsum?</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span>21st Jun 2019</span>
+                            <div class="content ">
+                                <h3>What Is Lorem Ipsum?</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span>15th April 2018</span>
+                            <div class="content ">
+                                <h3>What Is Lorem Ipsum?</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span>22nd Mars 2017</span>
+                            <div class="content ">
+                                <h3>What Is Lorem Ipsum?</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr style=" width: 5npx; background-color: black;">
+            <div id="right">
+                <div class="timeline">
+                    <center>
+                        <h1 id="experience " style="font-size: 60px; ">Experience</h1>
+                    </center>
+                    <hr>
+                    <ul>
+                        <li>
+                            <span>3rd January 2020</span>
+                            <div class=" content ">
+                                <h3>What Is Lorem Ipsum?</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span>21st Jun 2019</span>
+                            <div class="content ">
+                                <h3>What Is Lorem Ipsum?</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span>15th April 2018</span>
+                            <div class="content ">
+                                <h3>What Is Lorem Ipsum?</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span>22nd Mars 2017</span>
+                            <div class="content ">
+                                <h3>What Is Lorem Ipsum?</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Skills Section -->
+    <h1 style="text-align: center;font-size: 70px; ">Skills</h1>
+    <section id="skills" style="width:1300px; height: auto; background: rgb(74, 123, 125);display: flex;justify-content: space-between; right:2px;position: relative; left: 200px; flex-wrap: wrap;border-radius: 30px; box-shadow: 0 0 100px
+                black; ">
+
+        <!-- Skill Container for HTML -->
+        <div class="skill-container ">
+            <div class="skill-header ">
+                <span>HTML</span>
+                <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000 " alt="HTML5 logo " />
+            </div>
+            <div class="skill-bar ">
+                <div class="skill-bar-fill " style="width: 85%; "></div>
+            </div>
+            <div class="skill-labels ">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Advanced</span>
+                <span>Professional</span>
+            </div>
+        </div>
+        <!-- Skill Container for CSS -->
+        <div class="skill-container ">
+            <div class="skill-header ">
+                <span>CSS</span>
+                <img src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000 " alt="CSS logo " />
+            </div>
+            <div class="skill-bar ">
+                <div class="skill-bar-fill " style="width: 80%; "></div>
+            </div>
+            <div class="skill-labels ">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Advanced</span>
+                <span>Professional</span>
+            </div>
+        </div>
+        <!-- Skill Container for C++ -->
+        <div class="skill-container ">
+            <div class="skill-header ">
+                <span>C++</span>
+                <img src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000 " alt="CSS logo " />
+            </div>
+            <div class="skill-bar ">
+                <div class="skill-bar-fill " style="width: 80%; "></div>
+            </div>
+            <div class="skill-labels ">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Advanced</span>
+                <span>Professional</span>
+            </div>
+        </div>
+        <!-- Skill Container for PYTHON -->
+        <div class="skill-container ">
+            <div class="skill-header ">
+                <span>PYTHON</span>
+                <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000 " alt="CSS logo " />
+            </div>
+            <div class="skill-bar ">
+                <div class="skill-bar-fill " style="width: 80%; "></div>
+            </div>
+            <div class="skill-labels ">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Advanced</span>
+                <span>Professional</span>
+            </div>
+        </div>
+        <!-- Skill Container for PHP -->
+        <div class="skill-container ">
+            <div class="skill-header ">
+                <span>PHP</span>
+                <img src="https://img.icons8.com/?size=100&id=2GqXMtFKWIPP&format=png&color=000000 " alt="CSS logo " />
+            </div>
+            <div class="skill-bar ">
+                <div class="skill-bar-fill " style="width: 80%; "></div>
+            </div>
+            <div class="skill-labels ">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Advanced</span>
+                <span>Professional</span>
+            </div>
+        </div>
+        <!-- Skill Container for SQL -->
+        <div class="skill-container ">
+            <div class="skill-header ">
+                <span>SQL</span>
+                <img src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000 " alt="CSS logo " />
+            </div>
+            <div class="skill-bar ">
+                <div class="skill-bar-fill " style="width: 80%; "></div>
+            </div>
+            <div class="skill-labels ">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Advanced</span>
+                <span>Professional</span>
+            </div>
+        </div>
+        <!-- Skill Container for JS -->
+        <div class="skill-container ">
+            <div class="skill-header ">
+                <span>JS</span>
+                <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000 " alt="CSS logo " />
+            </div>
+            <div class="skill-bar ">
+                <div class="skill-bar-fill " style="width: 80%; "></div>
+            </div>
+            <div class="skill-labels ">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Advanced</span>
+                <span>Professional</span>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1 style="text-align: center;font-size: 70px; ">Projects</h1>
+        <div class="projects ">
+            <!-- Project Card -->
+            <a href="build-a-survey-form.html" target="_blank" style="text-decoration: none;">
+                <div class="project-card ">
+                    <h3>Project 1</h3>
+                    <h3>A Classic Survey Form</h3>
+                    <img src="https://picsum.photos/200" alt="survey form" class="project-img">
+                    <p>A Classic survey form displaing all the basic features a survey form must have</p>
+                </div>
+            </a>
+            <a href="build-a-tribute-page.html" target="_blank" style="text-decoration: none;">
+                <div class="project-card ">
+                    <h3>Project 2</h3>
+                    <h3>a tribute page</h3>
+                    <img src="https://picsum.photos/200" alt=" " class="project-img">
+                    <p>A brief description of your project goes here.</p>
+                </div>
+            </a>
+            <a href="build-a-technical-documentation-page.html" target="_blank" style="text-decoration: none;">
+                <div class="project-card ">
+                    <h3>Project 3</h3>
+                    <h3>a technical details page</h3>
+                    <img src="https://picsum.photos/200" alt=" " class="project-img">
+                    <p>A brief description of your project goes here.</p>
+                </div>
+            </a>
+            <a href="build-a-product-landing-page.html" target="_blank" style="text-decoration: none;">
+                <div class="project-card ">
+                    <h3>Project 4</h3>
+                    <h3>a product landing page</h3>
+                    <img src="https://picsum.photos/200" alt=" " class="project-img">
+                    <p>A brief description of your project goes here.</p>
+                </div>
+            </a>
+            <a href="build-a-personal-portfolio-webpage.html" target="_blank" style="text-decoration: none;">
+                <div class="project-card ">
+                    <h3>Project 5</h3>
+                    <h3>personal Portfolio</h3>
+                    <img src="https://picsum.photos/200" alt=" " class="project-img">
+                    <p>A brief description of your project goes here.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="contact-me">
+        <div class="modal" id="contactModal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <!-- Close button for modal -->
+                <h2>Contact Me</h2>
+                <input type="text" class="login__input" placeholder="Your Name" required />
+                <input type="email" class="login__input" placeholder="Your Email" required />
+                <textarea class="login__input" placeholder="Your Message" required></textarea>
+                <button class="login__button">Send Message</button>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="social" style="
+    background-color: rgb(199, 151, 92);
+    ">
+        <center>
+            <p style="padding-top: 20px; font-size: 30px;">Connect with me on social media!</p>
+            <br>
+            <div id="social_icons" style="display: flex; justify-content: center; flex-wrap: nowrap;align-items: center;">
+                <a href="www.instagram.com"><img src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000" alt="Facebook" id="soc"></a>
+                <a href=" "><img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000" alt="Instagram" id="soc"></a>
+                <a href=" "><img src="https://img.icons8.com/?size=100&id=19318&format=png&color=000000" alt="Youtube" id="soc"></a>
+                <a href=" "><img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt="LinkedIn" id="soc"></a>
+                <a href=" "><img src="https://img.icons8.com/?size=100&id=ClbD5JTFM7FA&format=png&color=000000" alt="Twitter" id="soc"></a>
+            </div>
+        </center>
+    </footer>
+</body>
+<script>
+    // Typing animation
+    var typed = new Typed('#element', {
+        strings: ["Graphics Designer ", "Web Developer ", "Python Developer "],
+        typeSpeed: 120,
+        backSpeed: 140,
+        loop: true,
+        smartBackspace: true,
+        backDelay: 1500
+    });
+    //Navbar animation
+    $('.expandHome').mouseover(function() {
+        $('.sub-home').css({
+            'display': 'block'
+        });
+    });
+    $('#quadrilateral').mouseleave(function() {
+        $('#quadrilateral').css({
+            'margin-top': '-53px'
+        });
+        $('.sub-home').css({
+            'display': 'none'
+        });
+    }).mouseenter(function() {
+        $('#quadrilateral').css({
+            'margin-top': '0px'
+        });
+    });
+
+
+    // Open the modal when the "Contact" link is clicked
+    document.getElementById('contact-link').addEventListener('click', function(event) {
+        event.preventDefault();
+        document.getElementById('contactModal').style.display = 'block';
+    });
+
+    // Close the modal when the "close" button is clicked
+    document.querySelector('.close').addEventListener('click', function() {
+        document.getElementById('contactModal').style.display = 'none';
+    });
+
+    // Close the modal if the user clicks outside of it
+    window.addEventListener('click', function(event) {
+        if (event.target == document.getElementById('contactModal')) {
+            document.getElementById('contactModal').style.display = 'none';
+        }
+    });
+</script>
+
+</html>
