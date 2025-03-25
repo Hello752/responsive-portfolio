@@ -6,7 +6,7 @@ Here's a template for your README file based on the HTML project you've created 
 
 ## Overview
 
-This is the official portfolio website of Prathik Prajapati, designed to showcase projects, skills, and professional experience. The portfolio includes sections such as **About Me**, **Education**, **Experience**, **Projects**, and **Contact Me**, making it easy for visitors to explore Prathik's journey and achievements.
+This is the official portfolio website of Saideep ghosh, designed to showcase projects, skills, and professional experience. The portfolio includes sections such as **About Me**, **Education**, **Experience**, **Projects**, and **Contact Me**, making it easy for visitors to explore Saideep's journey and achievements.
 
 ## Table of Contents
 - [Overview](#overview)
