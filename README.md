@@ -2,7 +2,7 @@ Here's a template for your README file based on the HTML project you've created 
 
 ---
 
-# Prathik Prajapati Portfolio
+# Saideep ghosh portfolio
 
 ## Overview
 
